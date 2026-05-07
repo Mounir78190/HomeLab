@@ -299,7 +299,7 @@ hydra -l admin -P rockyou.txt ssh://IP
 
 ## 🏗️ Architecture du HomeLab
 
-![Architecture réseau](images/Home_Lab.drawio_git.png)
+![Architecture réseau](/Home_Lab.drawio_git.png)
 
 ---
 
