@@ -350,6 +350,15 @@ hydra -l admin -P rockyou.txt ssh://IP
 
 ---
 
+# 🧩 Difficultés rencontrées
+
+- Configuration VLAN trunk/access
+- Routage inter-VLAN
+- NAT pfSense
+- Détection CrowdSec
+- Gestion des règles firewall
+- Connectivité WAN via passerelle Linux
+
 # 📚 Contexte pédagogique
 
 Projet réalisé dans le cadre du titre RNCP Opérateur en Cybersécurité à l’EECS.
