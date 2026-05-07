@@ -432,7 +432,7 @@ Plusieurs problèmes ont été rencontrés :
 - absence d’accès Internet depuis pfSense ;
 - erreurs de routage ;
 - configuration NAT incomplète ;
-- incohérences de passerelle. }
+- incohérences de passerelle.
 
 La résolution a nécessité :
 
