@@ -1,5 +1,10 @@
 # 🔐 HomeLab Sécurisé — Cybersecurity Lab
 
+![pfSense](https://img.shields.io/badge/pfSense-Firewall-red)
+![CrowdSec](https://img.shields.io/badge/CrowdSec-IDS%2FIPS-blue)
+![WireGuard](https://img.shields.io/badge/WireGuard-VPN-orange)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-black)
+
 Infrastructure réseau sécurisée conçue dans le cadre de ma formation RNCP Opérateur en Cybersécurité à l’EECS.
 
 Ce projet reproduit une architecture proche d’un environnement professionnel afin de mettre en pratique des compétences en :
