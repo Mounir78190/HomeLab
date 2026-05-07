@@ -305,43 +305,43 @@ hydra -l admin -P rockyou.txt ssh://IP
 
 ## 🔥 Configuration des interfaces pfSense
 
-![Interfaces pfSense](images/pfsense_git.png)
+![Interfaces pfSense](/pfsense_git.png)
 
 ---
 
 ## 🌐 Configuration VLAN sur TP-Link Omada
 
-![VLAN Omada](images/tp_link_git.png)
+![VLAN Omada](/tp_link_git.png)
 
 ---
 
 ## 👁️ Supervision CrowdSec
 
-![CrowdSec](images/Crowdsec_git.png)
+![CrowdSec](/Crowdsec_git.png)
 
 ---
 
 ## 🔍 Scan réseau depuis Kali Linux
 
-![Nmap Scan](images/Nmap1_git.png)
+![Nmap Scan](/Nmap1_git.png)
 
 ---
 
 ## 🚫 Tentative d’accès non autorisé
 
-![Unauthorized Access](images/Nmap2_git.png)
+![Unauthorized Access](/Nmap2_git.png)
 
 ---
 
 ## ↔️ Test de mouvement latéral
 
-![Lateral Movement](images/Nmap3_git.png)
+![Lateral Movement](/Nmap3_git.png)
 
 ---
 
 ## 🔐 VPN WireGuard sur pfSense
 
-![WireGuard](images/Wireguard_git.png)
+![WireGuard](/Wireguard_git.png)
 
 ---
 
