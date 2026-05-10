@@ -330,25 +330,25 @@ Détection → Analyse → Réponse → Remédiation.
 
 ## 🏗️ Architecture du HomeLab
 
-![Architecture réseau](/Home_Lab.drawio_git.png)
+![Architecture réseau](/images/Home_Lab.drawio_git.png)
 
 ---
 
 ## 🔥 Configuration des interfaces pfSense
 
-![Interfaces pfSense](/pfsense_git.png)
+![Interfaces pfSense](/images/pfsense_git.png)
 
 ---
 
 ## 🌐 Configuration VLAN sur TP-Link Omada
 
-![VLAN Omada](/tp_link_git.png)
+![VLAN Omada](/images/tp_link_git.png)
 
 ---
 
 ## 👁️ Supervision CrowdSec
 
-![CrowdSec](/Crowdsec_git.png)
+![CrowdSec](/images/Crowdsec_git.png)
 
 ---
 
@@ -362,7 +362,7 @@ Les scénarios détectés dans le HomeLab incluent :
 
 Les alertes sont générées automatiquement lors des simulations d’attaques SSH depuis Kali Linux.
 
-![CrowdSec Alerts](alerts.png)
+![CrowdSec Alerts](/images/alerts.png)
 
 ---
 
@@ -370,7 +370,7 @@ Les alertes sont générées automatiquement lors des simulations d’attaques S
 
 Lorsqu’un comportement malveillant est détecté, CrowdSec applique automatiquement une remédiation via blocage dynamique de l’adresse IP attaquante.
 
-![CrowdSec Decisions](Decisions.png)
+![CrowdSec Decisions](/images/Decisions.png)
 
 ---
 
@@ -383,31 +383,31 @@ Les logs montrent :
 - la détection des comportements suspects ;
 - le déclenchement des mécanismes de protection.
 
-![SSHGuard Logs](sshguard.png)
+![SSHGuard Logs](/images/sshguard.png)
 
 ---
 
 ## 🔍 Scan réseau depuis Kali Linux
 
-![Nmap Scan](/Nmap1_git.png)
+![Nmap Scan](/images/Nmap1_git.png)
 
 ---
 
 ## 🚫 Tentative d’accès non autorisé
 
-![Unauthorized Access](/Nmap2_git.png)
+![Unauthorized Access](/images/Nmap2_git.png)
 
 ---
 
 ## ↔️ Test de mouvement latéral
 
-![Lateral Movement](/Nmap3_git.png)
+![Lateral Movement](/images/Nmap3_git.png)
 
 ---
 
 ## 🔐 VPN WireGuard sur pfSense
 
-![WireGuard](/Wireguard_git.png)
+![WireGuard](/images/Wireguard_git.png)
 
 ---
 
