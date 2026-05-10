@@ -346,7 +346,7 @@ Détection → Analyse → Réponse → Remédiation.
 
 ---
 
-## 👁️ Supervision CrowdSec
+## 👁️ Dashboard CrowdSec
 
 ![CrowdSec](/images/Crowdsec_git.png)
 
