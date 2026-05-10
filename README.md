@@ -271,6 +271,20 @@ hydra -l admin -P rockyou.txt ssh://IP
 
 ---
 
+# 🖥️ Approche SOC / Blue Team
+
+Le HomeLab a été conçu dans une logique de cybersécurité opérationnelle inspirée d’un environnement SOC :
+
+- supervision des événements réseau ;
+- détection comportementale ;
+- analyse de logs ;
+- remédiation automatique ;
+- simulation d’attaques contrôlées ;
+- segmentation et limitation des mouvements latéraux.
+
+Les différents tests réalisés permettent de reproduire un cycle simplifié :
+Détection → Analyse → Réponse → Remédiation.
+
 # 🧠 Compétences développées
 
 ## 🔵 Blue Team
@@ -348,7 +362,7 @@ Les scénarios détectés dans le HomeLab incluent :
 
 Les alertes sont générées automatiquement lors des simulations d’attaques SSH depuis Kali Linux.
 
-![CrowdSec Alerts](images/crowdsec-alerts.png)
+![CrowdSec Alerts](alerts.png)
 
 ---
 
@@ -356,7 +370,7 @@ Les alertes sont générées automatiquement lors des simulations d’attaques S
 
 Lorsqu’un comportement malveillant est détecté, CrowdSec applique automatiquement une remédiation via blocage dynamique de l’adresse IP attaquante.
 
-![CrowdSec Decisions](images/crowdsec-decisions.png)
+![CrowdSec Decisions](Decisions.png)
 
 ---
 
@@ -369,7 +383,7 @@ Les logs montrent :
 - la détection des comportements suspects ;
 - le déclenchement des mécanismes de protection.
 
-![SSHGuard Logs](images/sshguard-logs.png)
+![SSHGuard Logs](sshguard.png)
 
 ---
 
@@ -399,7 +413,7 @@ Les logs montrent :
 
 # 🧩 Difficultés rencontrées
 
-La mise en œuvre de cette infrastructure HomeLab m’a confronté à plusieurs problématiques techniques concrètes, proches de celles rencontrées dans des environnements professionnels. Ces difficultés ont constitué une phase d’apprentissage importante, notamment sur les mécanismes réseau, le routage et la sécurisation des flux. :contentReference[oaicite:0]{index=0}
+La mise en œuvre de cette infrastructure HomeLab m’a confronté à plusieurs problématiques techniques concrètes, proches de celles rencontrées dans des environnements professionnels. Ces difficultés ont constitué une phase d’apprentissage importante, notamment sur les mécanismes réseau, le routage et la sécurisation des flux.
 
 ---
 
