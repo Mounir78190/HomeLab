@@ -5,6 +5,18 @@
 ![WireGuard](https://img.shields.io/badge/WireGuard-VPN-orange)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-black)
 
+# 📑 Sommaire
+
+- [🎯 Objectifs du projet](#-objectifs-du-projet)
+- [🏗️ Architecture Réseau](#️-architecture-réseau)
+- [⚙️ Technologies utilisées](#️-technologies-utilisées)
+- [🛡️ Fonctionnalités de sécurité](#️-fonctionnalités-de-sécurité)
+- [🧪 Scénarios d’attaque réalisés](#-scénarios-dattaque-réalisés)
+- [🌐 VPN WireGuard](#-mise-en-place-du-vpn-wireguard)
+- [📸 Aperçu du Lab](#-aperçu-du-lab)
+- [🧩 Difficultés rencontrées](#-difficultés-rencontrées)
+- [📚 Contexte pédagogique](#-contexte-pédagogique)
+
 Infrastructure réseau sécurisée conçue dans le cadre de ma formation RNCP Opérateur en Cybersécurité à l’EECS.
 
 Ce projet reproduit une architecture proche d’un environnement professionnel afin de mettre en pratique des compétences en :
@@ -323,6 +335,41 @@ hydra -l admin -P rockyou.txt ssh://IP
 ## 👁️ Supervision CrowdSec
 
 ![CrowdSec](/Crowdsec_git.png)
+
+---
+
+## 🚨 Alertes CrowdSec
+
+CrowdSec analyse les logs pfSense afin de détecter les comportements suspects et les tentatives d’attaque.
+
+Les scénarios détectés dans le HomeLab incluent :
+- `crowdsecurity/ssh-bf`
+- `crowdsecurity/ssh-slow-bf`
+
+Les alertes sont générées automatiquement lors des simulations d’attaques SSH depuis Kali Linux.
+
+![CrowdSec Alerts](images/crowdsec-alerts.png)
+
+---
+
+## 🔥 Décisions automatiques CrowdSec
+
+Lorsqu’un comportement malveillant est détecté, CrowdSec applique automatiquement une remédiation via blocage dynamique de l’adresse IP attaquante.
+
+![CrowdSec Decisions](images/crowdsec-decisions.png)
+
+---
+
+## 🛡️ Logs SSHGuard
+
+En complément de CrowdSec, SSHGuard protège les services SSH contre les tentatives de bruteforce.
+
+Les logs montrent :
+- la surveillance active du service SSH ;
+- la détection des comportements suspects ;
+- le déclenchement des mécanismes de protection.
+
+![SSHGuard Logs](images/sshguard-logs.png)
 
 ---
 
